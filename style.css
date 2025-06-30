@@ -1,0 +1,56 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+.travel-pages {
+  display: flex;
+  overflow-x: auto;
+  gap: 16px;
+  padding: 16px 0;
+}
+
+.travel-page {
+  min-width: 300px;
+  flex: 0 0 auto;
+  background: #f0f0f0;
+  border-radius: 8px;
+  padding: 24px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  font-size: 1.1rem;
+  margin-bottom: 16px;
+}
+
+.travel-photos {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  padding: 16px 0;
+}
+
+.travel-photos img {
+  width: 450px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+@media (max-width: 700px) {
+  .travel-photos img {
+    width: 180px;
+    height: 130px;
+  }
+}
+
+.center-text {
+  text-align: center;
+}
+
+ul {
+  display: inline-block;
+  text-align: left;
+  list-style-position: inside;
+  padding-left: 0;
+  margin: 0 auto 24px auto;
+}
